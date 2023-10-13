@@ -1,13 +1,20 @@
-# Example Laravel project
+# Example project using Laravel and Docker
 
 ## Requirements
-- Docker
-- VSCode
+- [Docker](https://docs.docker.com/engine/install/) and [Docker Compose](https://docs.docker.com/compose/install/)
+- [VSCode](https://code.visualstudio.com/download)
 - VSCode extension: Dev Containers
 
 ## Setup
 - Clone this repository.
-- Set the .env file given by the author
+~~~shell
+git clone git@github.com:JefJrFigueiredo/laravel-docker.git
+~~~
+- Enter the repository
+~~~shell
+cd laravel-docker
+~~~
+- Create the .env file given by the author in the root of the project
 - Use the following [command](https://laravel.com/docs/10.x/sail#installing-composer-dependencies-for-existing-projects) for installing dependencies:
 ~~~shell
 docker run --rm \
