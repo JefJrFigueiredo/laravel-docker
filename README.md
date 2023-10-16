@@ -4,9 +4,10 @@
 - [Docker](https://docs.docker.com/engine/install/) and [Docker Compose](https://docs.docker.com/compose/install/)
 - [VSCode](https://code.visualstudio.com/download)
 - VSCode extension: Dev Containers
+- If needed, use the convenience scripts of [this repository](https://github.com/JefJrFigueiredo/sh-for-dev-env/tree/main) to configure the Github SSH and install Docker and Docker Compose in a Linux or WSL2
 
 ## Setup
-- Clone this repository.
+- Clone this repository
 ~~~shell
 git clone git@github.com:JefJrFigueiredo/laravel-docker.git
 ~~~
