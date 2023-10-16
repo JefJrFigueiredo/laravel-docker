@@ -15,7 +15,14 @@ git clone git@github.com:JefJrFigueiredo/laravel-docker.git
 ~~~shell
 cd laravel-docker
 ~~~
-- Create the .env file given by the author in the root of the project
+- Create the .env file
+~~~shell
+cp .env.example .env
+~~~
+- Generate the app_key
+~~~shell
+./vendor/bin/sail artisan key:generate
+~~~
 - Use the following [command](https://laravel.com/docs/10.x/sail#installing-composer-dependencies-for-existing-projects) for installing dependencies:
 ~~~shell
 docker run --rm \
